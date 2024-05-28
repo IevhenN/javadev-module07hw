@@ -1,0 +1,53 @@
+{
+  "worker": [
+    {"name": "John Doe", "birthday": "1990-05-15", "level": "Senior", "salary": 6000},
+    {"name": "Jane Smith", "birthday": "1995-09-20", "level": "Middle", "salary": 4500},
+    {"name": "Michael Johnson", "birthday": "1992-07-10", "level": "Junior", "salary": 2500},
+    {"name": "Emily Brown", "birthday": "1993-03-25", "level": "Trainee", "salary": 800},
+    {"name": "Christopher Davis", "birthday": "1994-11-08", "level": "Senior", "salary": 5500},
+    {"name": "Jessica Martinez", "birthday": "1991-12-30", "level": "Middle", "salary": 4200},
+    {"name": "David Anderson", "birthday": "1989-08-17", "level": "Junior", "salary": 2800},
+    {"name": "Jennifer Taylor", "birthday": "1996-02-12", "level": "Trainee", "salary": 900},
+    {"name": "James Thomas", "birthday": "1997-06-05", "level": "Senior", "salary": 5800},
+    {"name": "Mary Hernandez", "birthday": "1998-04-18", "level": "Middle", "salary": 4300}
+  ],
+  "client": [
+    {"name": "OOO Roga i kopita"},
+    {"name": "SP Funtik"},
+    {"name": "AO VKRST"},
+    {"name": "SPD Nesterenko"},
+    {"name": "OOO AgroBudHol"}
+  ],
+  "project": [
+    {"client_id": 1, "start_date": "2023-01-01", "finish_date": "2023-03-15"},
+    {"client_id": 51, "start_date": "2023-02-15", "finish_date": "2023-05-20"},
+    {"client_id": 101, "start_date": "2023-03-20", "finish_date": "2023-07-10"},
+    {"client_id": 151, "start_date": "2023-04-10", "finish_date": "2023-08-25"},
+    {"client_id": 201, "start_date": "2023-05-05", "finish_date": "2023-09-30"},
+    {"client_id": 1, "start_date": "2023-06-01", "finish_date": "2023-10-15"},
+    {"client_id": 51, "start_date": "2023-07-15", "finish_date": "2023-11-20"},
+    {"client_id": 101, "start_date": "2023-08-20", "finish_date": "2023-12-10"},
+    {"client_id": 151, "start_date": "2023-09-10", "finish_date": "2024-01-25"},
+    {"client_id": 201, "start_date": "2023-10-05", "finish_date": "2024-02-28"}
+  ],
+  "project_worker": [
+    {"project_id": 1, "worker_id": 1},
+    {"project_id": 51, "worker_id": 51},
+    {"project_id": 51, "worker_id": 101},
+    {"project_id": 51, "worker_id": 251},
+    {"project_id": 51, "worker_id": 351},
+    {"project_id": 51, "worker_id": 401},
+    {"project_id": 101, "worker_id": 101},
+    {"project_id": 151, "worker_id": 151},
+    {"project_id": 151, "worker_id": 251},
+    {"project_id": 151, "worker_id": 301},
+    {"project_id": 151, "worker_id": 351},
+    {"project_id": 201, "worker_id": 201},
+    {"project_id": 251, "worker_id": 251},
+    {"project_id": 251, "worker_id": 51},
+    {"project_id": 301, "worker_id": 301},
+    {"project_id": 351, "worker_id": 351},
+    {"project_id": 401, "worker_id": 401},
+    {"project_id": 451, "worker_id": 451}
+  ]
+}
